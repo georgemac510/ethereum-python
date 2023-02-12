@@ -34,7 +34,11 @@ Close and reopen terminal
 
     brownie run scripts/deploy.py
 
-5. Add new accounts for testnet deployments
+5. Deploy contract to live network and verify contract on Etherscan
+
+    brownie run scripts/deploy.py --network goerli
+
+6. Add new accounts for testnet deployments
 
     brownie accounts new "account_name"
 
